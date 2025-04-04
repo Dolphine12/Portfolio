@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 50px;
+            padding: 0px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+        }
+        nav {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            margin: -20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .image-placeholder {
+            margin: 0 ;
+            width: 200px;
+            height: 200px;
+            background-color: #555;
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project, .certificate {
+            margin-bottom: 1.5rem;
+        }
+        .project h3, .certificate h3 {
+            margin: 0.5rem 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        .contact {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #007BFF;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="image-placeholder">
+            <img src="images/myself.jpg" alt="Profile Picture" style="width: 100%; height: 100%; border-radius: 50%;">
+        </div>
+        <h1>Hello!! I'm Daisy <br>
+            My Portfolio...</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I have a Strong foundation in data analysis, statistics and cloud computing with hands-on experience in Python, SQL and Advanced
+                Excel. Expertise in data visualization tools such as Power BI and Tableau to present complex datasets, uncover insights and
+                apply analytical techniques to solve real-world projects. AWS Certified Cloud Practitioner with a foundational knowledge of
+                cloud-based analytics. Eager to apply statistical analysis and data mining concepts to gain practical experience and
+                contribute to data-driven projects</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <div class="project" style="flex: 1; min-width: 300px;">
+                <h3>Portfolio Website</h3>
+                <p>The project is designed to evaluate my proficiency in HTML and CSS by developing a simple yet interactive portfolio. It emphasizes core principles of both languages while enhancing the portfolio’s visual appeal and user engagement. </p>
+                <a href="Portfolio.html" class="btn">View Project</a>
+            </div>
+            <div class="project" style="flex: 1; min-width: 300px;">
+                <h3>Capstone Project</h3>
+                <p>This project analyzes real-time weather data in Kenya to support decision-making in sectors like agriculture, tourism, and outdoor events. It collects data from OpenWeatherMap, leveraging Python for analysis and SQL for storage. Using Power BI, it visualizes temperature trends, rainfall patterns, and wind conditions, providing actionable insights for better planning and adaptation.</p>
+                <a href="images/Visualization.pbix" class="btn">View Project</a>
+            </div>
+        </div>
+
+        </section>
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <div class="certificate" style="flex: 1; min-width: 300px;">
+                <h3>Power learn project(PLP) Software Development (ongoing)</h3>
+                <p>This Program offers a comprehensive learning experience, including modules on Web Development, Python Programming, Database Management, Software Engineering, and Startup Building for Developers. It provides hands-on training, practical skills, and industry insights which has helped me build a strong foundation in software development and entrepreneurship.</p>
+            </div>
+            <div class="certificate" style="flex: 1; min-width: 300px;">
+                <h3>Data Analysis - CISCO</h3>
+                <p>This certification validates my foundational knowledge and practical skills in data analysis, including data collection, cleaning, visualization, and interpretation. It demonstrates my ability to apply statistical techniques and data-driven decision-making using industry-standard tools.</p>
+                <a href="badges/data-analytics-essentials.png" class="btn">View My Badge</a>
+            </div>
+            <div class="certificate" style="flex: 2; min-width: 300px;">
+                <h3>AWS Certified Cloud Practitioner (CCP) - Ajira Digital AWS re/Start Program</h3>
+                <p>This certification validates my foundational understanding of cloud computing concepts, services, and best practices. It demonstrates my ability to define cloud infrastructure, security, pricing models, and deployment strategies across various cloud platforms.</p>
+                <a href="badges/aws-certified-cloud-practitioner.png" class="btn">View My Badge </a>
+            </div>
+            <div class="certificates" style="flex: 2; min-width: 300px;">
+                <h3>Cyber Security Foundational - CISCO</h3>
+                <p>This certificate demonstrates my ability to understand cybersecurity frameworks, encryption methods, and security compliance standards. It also validates my fundamental knowledge of cybersecurity principles, including threat detection, risk management, network security, and best practices for protecting digital assets.</p>
+                <a href="badges/cybersecurity-essentials (1).png" class="btn">View My Badge</a>
+            </div>
+        </section>
+        <section id = "languages">
+            <h2> Proficient Languages and Technologies</h2>
+            <div class="languages">
+                <ol start="1">
+                    <li>HTML and CSS</li>
+                    <li>python</li>
+                    <li>SQL (Tools: Dbeaver, Microsoft SQL Server, MySQL Workbench)</li>
+                    <li>Visualization Tools : tableau and PowerBi</li>
+                </ol>
+            </div>
+
+        </section>
+        <section id="contact">
+            <h2>Contact </h2>
+            <div class="contact">
+                <a href="mailto:daisyachieng246@gmail.com" title="Email"> daisyachieng246@gmail.com
+                </a> 
+                <a href="tel:+254759767177" title="Phone"> +254759767177
+                </a> 
+                <a href="https://www.linkedin.com/in/daisy-achieng" target="_blank" title="LinkedIn"> LinkedIn
+                </a> 
+                <a href="https://github.com/Dolphine12" target="_blank" title="GitHub"> GitHub
+                </a>
+            </div>
+        </section>
+        
+    </div>
+    <footer>
+        <p>&copy;Daisy@2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
