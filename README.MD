@@ -1,8 +1,8 @@
-# Daisy's Portfolio Website
+# Daisy's Portfolio Website 💮
 
 Welcome to Daisy's Portfolio! This repository contains the source code for my personal portfolio website, showcasing my skills, projects, certifications, and contact information.
 
-## Table of Contents
+## Table of Contents 📚
 
 1. [Overview](#overview)
 2. [Technologies Used](#technologies-used)
@@ -14,7 +14,7 @@ Welcome to Daisy's Portfolio! This repository contains the source code for my pe
 
 This portfolio website highlights my expertise in data analysis, cloud computing, and software development. Through a simple and modern design, it provides an accessible and organized way to present my projects, certifications, and contact details. The use of HTML and CSS ensures the site is visually appealing, responsive, and functional on both desktop and mobile devices.
 
-## Technologies Used
+## Technologies Used ⚒💻
 
 - **HTML**: Forms the backbone of the website by providing structure to the content, including sections like "About", "Projects", "Certificates", and "Contact". It ensures the content is semantically correct and easy to navigate.
 - **CSS**: Handles the presentation layer of the website, styling elements for a clean and modern look. It uses flexbox to create a responsive layout that adapts to different screen sizes, ensuring an optimal viewing experience.
@@ -31,10 +31,11 @@ The website is designed to provide a comprehensive yet accessible overview of my
 6. **Contact Section**: Provides direct ways to get in touch, including email, phone, LinkedIn, and GitHub, allowing potential employers or collaborators to reach out easily.
 7. **Footer**: A simple copyright notice wrapping up the document.
 
-## How to View the Website Locally
+## How to View the Website 📱
+1. Click this URL to to gain access to my site https://dolphine12.netlify.app/
 
-To view the portfolio website locally, simply clone this repository and open the `index.html` file in a web browser:
+2. To view the portfolio website locally, simply clone this repository and open the `index.html` file in a web browser:
 
 ```bash
-git clone https://github.com/Dolphine12/portfolio.git
+git clone https://github.com/Dolphine12/portfolio.github.io.git
 open index.html
